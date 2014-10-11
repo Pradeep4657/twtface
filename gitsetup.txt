@@ -1,0 +1,74 @@
+    1  ls /media
+    2  su
+    3  sudo apt-get install install VirtualBox-4.3
+    4  cd ..
+    5  cd pradeep
+    6  cd genymotion/
+    7  ./genymotion
+    8  mount -o ro /dev/sda4 ~/windows
+    9  su
+   10  su dell
+   11  su
+   12  sudo apt-get install libqt4-dbus libqt4-network libqt4-xml libasound2
+   13  su
+   14  mount -t ntfs -o ro /dev/sda2 /media/software 
+   15  cd ..
+   16  dell123
+   17  su
+   18  su 
+   19  su
+   20  cd ..
+   21  cd .
+   22  ls
+   23  cd pradeep/
+   24  cd adt-bundle-linux-x86-20140702/
+   25  cd sdk
+   26  cd platform-tools/
+   27  ls
+   28  adb devices
+   29  ./adb devices
+   30  adb install -r Facebook_Twitter_three.apk 
+   31  ./adb install -r Facebook_Twitter_three.apk 
+   32  su
+   33  ls
+   34  mkdir project
+   35  cd project/
+   36  git config --global user.name "Pradeep Biradar"
+   37  sudo apt-get install git
+   38  git config --global user.name "Pradeep Biradar"
+   39  git config --global user.email "pradeep.biradar@ymail.com"
+   40  ls -al ~/.ssh
+   41  ssh-keygen -t rsa -C "pradeep.biradar@ymail.com"
+   42  ls -al ~/.ssh
+   43  cd 
+   44  ls -la
+   45  ssh
+   46  ls 
+   47  l -a
+   48  mkdir .ssh
+   49  cd .ssh/
+   50  ssh-keygen -t rsa -C "pradeep.biradar@ymail.com"
+   51  cat id_rsa
+   52  eval "$(ssh-agent -s)
+   53  eval "$(ssh-agent -s)"
+   54  ssh-add ~/.ssh/id_rsa
+   55  sudo apt-get install xclip
+   56  xclip -sel clip < ~/.ssh/id_rsa.pub
+   57  ssh -T git@github.com
+   58  cd ../project/
+   59  touch README.md
+   60  git init
+   61  git add README.md
+   62  git commit -m "first commit"
+   63  git remote add origin https://github.com/Pradeep4657/twtface.git
+   64  git push -u origin master
+   65  mkdir android 
+   66  git add android/
+   67  git commit -m "added android dir commit"
+   68  git add android
+   69  git commit -m "added android dir commit"
+   70  ls
+   71  git remote add origin https://github.com/Pradeep4657/twtface.git
+   72  git push -u origin master
+   73  git pull 
+   74  history > gitsetup.txt

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/monumentImage"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/monumentName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_marginTop="2dp"
+         android:background="#dedede"
+         android:marqueeRepeatLimit="15"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/monumentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="#dedede"
+        android:text="description" />
+
+</LinearLayout>

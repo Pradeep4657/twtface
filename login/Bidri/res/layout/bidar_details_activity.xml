@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:padding="5dp"
+            >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9933CC"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:text="Title" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/iconssss" />
+</RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+      
+            <TextView
+                android:id="@+id/descText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="  city sky.  "
+                />
+            
+        
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
